@@ -34,11 +34,11 @@ def lambda_handler(event, context):
 
 
 #Start
-{ "instances": "i-0ee4790fd43e36a5e", "action": "Start" }  
+{ "instances": "SUA_INSTANCE_ID", "action": "Start" }  
 
 
 #Stop
-{ "instances": "i-0ee4790fd43e36a5e", "action": "Stop" }
+{ "instances": "SUA_INSTANCE_ID", "action": "Stop" }
 
 
 OBS: Poder ser adicionado mais de uma instancia na configuração.

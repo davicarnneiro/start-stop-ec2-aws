@@ -22,7 +22,7 @@ resource "aws_cloudwatch_event_target" "start" {
 
   input = <<INPUT
   {
-  "instances": "i-01789e68479abc28e",
+  "instances": "ID_DA_SUA_INSTANCIA",
   "action": "Start"
 }
   INPUT
@@ -42,7 +42,7 @@ resource "aws_cloudwatch_event_target" "stop" {
 
   input = <<INPUT
   {
-  "instances": "i-01789e68479abc28e",
+  "instances": "ID_DA_SUA_INSTANCIA",
   "action": "Stop"
 }
   INPUT

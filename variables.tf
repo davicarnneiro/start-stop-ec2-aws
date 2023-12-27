@@ -1,5 +1,5 @@
 ## Global variables
 variable "aws_region" {
   type    = string
-  default = "us-west-2"
+  default = "SUA_REGIAO"
 }
